@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+
 .wrapper {
     margin: auto;
     width: 80%;
@@ -92,3 +93,47 @@
 .main__button:hover {
     opacity: .5s;
 }
+
+@media (max-width: 768px) {
+    .body {
+        margin: 0;
+    }
+    .menu{
+         display: none;
+    }
+    .header {
+        margin-bottom: 28px;
+    }
+    .logo {
+        width: 36px;
+        height: 35px;
+        background: url('img/logomini.svg');
+    }
+    .hamburger-menu {
+        padding: 3%;
+        width: 25px;
+        height: 17px;
+        margin-right: 0;
+        background: no-repeat url('img/menuburger.svg');
+
+    }
+    .main {
+        text-align: center;
+        padding: 74% 0 0;
+        background-size: 74%;
+        background-position: top center;
+    }
+    .main__title {
+        margin-bottom: 44px;
+        font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+    }
+    .main__subtitle {
+        margin-bottom: 25px;
+        font: 500 16px/19px roboto, arial, helvetica, sans-serif;
+    }
+    .main__button {
+        font: 500 14px/16px roboto, arial, helvetica, sans-serif;
+    }
+}
+
+
