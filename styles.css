@@ -63,14 +63,14 @@
 }
 
 .main {
-    padding: 0 63% 200px 0;
+    padding: 0 63% 300px 0;
     background: top right no-repeat url('img/mainimg.svg');
     background-size: 770px 657px;
 }
 
 .main__title {
-    margin: 246px 0 40px 0;
-    font: bold 50px/66px serif, arial, helvetica, sans-serif;
+    margin: 205px 0 30px 0;
+    font: bold 73px/94px serif, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
@@ -78,15 +78,15 @@
 }
 
 .main__subtitle {
-    margin: 0 0 41px 0;
-    font: 18px/21px roboto, arial, helvetica, sans-serif;
+    margin: 0 0 40px 0;
+    font: 20px/23px roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
     font: 14px/16px roboto, arial, helvetica, sans-serif ;
-    padding: 14px 16px;
-    width: 500px;
-    height: 100px;
+    display: inline-block;
+    padding: 20px 50px;
+    
     color: white;
     background: #0056EC;
     text-decoration: none;
