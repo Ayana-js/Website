@@ -86,7 +86,6 @@
     font: 14px/16px roboto, arial, helvetica, sans-serif ;
     display: inline-block;
     padding: 20px 50px;
-    
     color: white;
     background: #0056EC;
     text-decoration: none;
@@ -98,12 +97,12 @@
     opacity: 0.5;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 770px) {
     .body {
         margin: 0;
     }
     .wrapper {
-        width: 90%;
+        width: 87%;
     }
     .menu{
          display: none;
@@ -114,7 +113,8 @@
     .logo {
         width: 36px;
         height: 35px;
-        background: url('img/logomini.svg');
+        background: top left url('img/logomini.svg');
+
     }
 
     #menu__toggle {
@@ -125,7 +125,7 @@
         display: flex;
         align-items: center; 
         position: fixed;
-        top: 32px;
+        top: 29px;
         left: 325px;
         width: 25px;
         height: 17px;
@@ -143,10 +143,12 @@
     height: 2px;
     background-color: #0056EC;
     }
+
     .menu__btn > span::before {
     content: '';
     top: -8px;
     }
+
     .menu__btn > span::after {
     content: '';
     top: 8px;
@@ -178,6 +180,7 @@
         font-weight: 500;
         transition-duration: .25s;
       }
+
       .menu__item:hover {
         background-color: #CFD8DC;
       }
@@ -211,26 +214,60 @@
     }
     .main__subtitle {
         margin-bottom: 25px;
-        font: 500 16px/19px roboto, arial, helvetica, sans-serif;
+        font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
     }
     .main__button {
-        font: 500 14px/16px roboto, arial, helvetica, sans-serif;
+        font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     }
 }
 
-/* @media (min-width: 1920px) {
-    .main__title {
-        margin: 220px 0 40px 0;
-    } */
-}
+
 
 @media (max-width: 1366px) {
+    .body {
+        margin: 0;
+    }
+
     .wrapper {
-        width: 67%;
+        width: 68%;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 35px 0;
+        margin-bottom: 80px;
+    }
+
+    .menu__item {
+     font: 500 15px/18px Roboto, arial, helvetica, sans-serif;
+    }
+
+    .main {
+        padding: 0 40% 300px 0;
+        background: center top no-repeat url('img/mainimg.svg');
+        background-size: 515px 440px;
+    }
+    
+    .main__title {
+        margin: 100px 0 35px 0;
+        font: bold 50px/66px pt-serif, arial, helvetica, sans-serif;
+    }
+
+    .main__subtitle {
+        margin: 0 0 40px 0;
+        font: 500 18px/21px roboto, arial, helvetica, sans-serif;
+    }
+      
+    .main__button {
+       padding: 15px 20px;
     }
 }
 
 @media (max-width: 1024px) {
+    .body {
+        margin: 0;
+    }
     .wrapper {
         width: 91%;
     }
