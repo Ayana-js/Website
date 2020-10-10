@@ -182,7 +182,7 @@
     font-family: Roboto, sans-serif;
     font-size: 30px;
     font-weight: 500;
-    transition-duration: .25s;
+    transition-duration: 0.25s;
   }
 
   .menu__item:hover {
@@ -324,3 +324,4 @@
     display: none;
   }
 }
+
