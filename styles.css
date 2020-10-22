@@ -179,7 +179,7 @@
     display: block;
     padding: 12px;
     color: black;
-    font: 500 30px/35px roboto, arial, helvetica, sans-serif;
+    font: 500 30px/35px;
     transition-duration: 0.25s;
   }
 
@@ -216,18 +216,18 @@
 
   .main__title {
     padding: 24px 0 35px 0;
-    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+    font: bold 30px/39px;
   }
 
   .main__subtitle {
     margin: 0;
     padding: 0 0 25px 7px;
-    font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
+    font: 500 14px/17px;
   }
 
   .main__button {
     padding: 15px 20px;
-    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    font: 500 14px/16px;
   }
 }
 
@@ -249,7 +249,7 @@
   }
 
   .menu__item {
-    font: 500 15px/18px Roboto, arial, helvetica, sans-serif;
+    font: 500 15px/18px;
   }
 
   .main {
@@ -260,12 +260,12 @@
 
   .main__title {
     padding: 100px 0 35px 25px;
-    font: bold 50px/66px pt-serif, arial, helvetica, sans-serif;
+    font: bold 50px/66px;
   }
 
   .main__subtitle {
     margin: 0 0 20px 25px;
-    font: 500 18px/21px roboto, arial, helvetica, sans-serif;
+    font: 500 18px/21px;
   }
 
   .main__button {
@@ -293,7 +293,7 @@
   }
 
   .menu__item {
-    font: 500 15px/18px Roboto, arial, helvetica, sans-serif;
+    font: 500 15px/18px;
   }
 
   .main {
@@ -304,18 +304,18 @@
 
   .main__title {
     padding: 100px 0 43px 0;
-    font: bold 50px/66px pt-serif, arial, helvetica, sans-serif;
+    font: bold 50px/66px;
   }
 
   .main__subtitle {
     margin: 0 0 15px 0;
-    font: 500 18px/21px roboto, arial, helvetica, sans-serif;
+    font: 500 18px/21px;
   }
 
   .main__button {
     margin: 0;
     padding: 15px 23px;
-    font: 500 14px/16px roboto, arial, helvetica, sans-serif;
+    font: 500 14px/16px;
   }
 }
 
