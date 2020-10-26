@@ -28,7 +28,7 @@
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+  font: 500 18px/21px 'Robotomedium', arial, helvetica, sans-serif;
   color: black;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -69,7 +69,8 @@
 .main__title {
   margin: 0;
   padding-top: 130px;
-  font: 700 73px/94px 'pt_serifbold', arial, helvetica, sans-serif;
+  font: 700 66px/87px 'PT_serif', arial, helvetica, sans-serif;
+  letter-spacing: 3px;
 }
 
 .main__title-text_highlight {
@@ -78,11 +79,12 @@
 
 .main__subtitle {
   padding-bottom: 23px;
-  font: 400 20px/23px 'robotoregular', arial, helvetica, sans-serif;
+  font: 400 26px/22px 'Roboto', arial, helvetica, sans-serif;
+  letter-spacing: 3px;
 }
 
 .main__button {
-  font: 400 18px/21px 'robotoregular', arial, helvetica, sans-serif;
+  font: 400 18px/21px 'Roboto', arial, helvetica, sans-serif;
   display: inline-block;
   padding: 20px 30px;
   color: white;
@@ -256,7 +258,6 @@
   }
 
   .menu__item {
-    font-weight: 500;
     font-size: 15px;
     line-height: 18px;
   }
@@ -270,7 +271,7 @@
   .main__title {
     padding: 100px 0 35px 25px;
     font-size: 50px;
-    line-height: 60px;
+    line-height: 66px;
   }
 
   .main__subtitle {
