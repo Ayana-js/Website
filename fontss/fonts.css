@@ -1,23 +1,23 @@
 @font-face {
 	font-family: 'PT_serif';
-	src: url('fontss/PTF75F.eot');
-	src: local('☺'), url('fontss/PTF75F.woff') format('woff'), url('fontss/PTF75F.ttf') format('truetype'), url('fontss/PTF75F.svg') format('svg');
+	src: url('PTF75F.eot');
+	src: local('☺'), url('PTF75F.woff') format('woff'), url('PTF75F.ttf') format('truetype'), url('PTF75F.svg') format('svg');
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Robotomedium';
-	src: url('fontss/Roboto-Medium.eot');
-	src: local('☺'), url('fontss/Roboto-Medium.woff') format('woff'), url('fontss/Roboto-Medium.ttf') format('truetype'), url('fontss/Roboto-Medium.svg') format('svg');
+	src: url('Roboto-Medium.eot');
+	src: local('☺'), url('Roboto-Medium.woff') format('woff'), url('Roboto-Medium.ttf') format('truetype'), url('Roboto-Medium.svg') format('svg');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Roboto';
-	src: url('fontss/Roboto-Regular.eot');
-	src: local('☺'), url('fontss/Roboto-Regular.woff') format('woff'), url('fontss/Roboto-Regular.ttf') format('truetype'), url('fontss/Roboto-Regular.svg') format('svg');
+	src: url('Roboto-Regular.eot');
+	src: local('☺'), url('Roboto-Regular.woff') format('woff'), url('Roboto-Regular.ttf') format('truetype'), url('Roboto-Regular.svg') format('svg');
 	font-weight: 400;
 	font-style: normal;
 }

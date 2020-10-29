@@ -70,7 +70,6 @@
   margin: 0;
   padding-top: 130px;
   font: 700 66px/87px 'PT_serif', arial, helvetica, sans-serif;
-  letter-spacing: 3px;
 }
 
 .main__title-text_highlight {
@@ -78,15 +77,15 @@
 }
 
 .main__subtitle {
-  padding-bottom: 23px;
-  font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
-  letter-spacing: 3px;
+  margin-top: 38px;
+  padding-bottom: 20px;
+  font: 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .main__button {
   font: 400 18px/21px 'Roboto', arial, helvetica, sans-serif;
   display: inline-block;
-  padding: 20px 30px;
+  padding: 18px 27px;
   color: white;
   background: #0056ec;
   text-decoration: none;
